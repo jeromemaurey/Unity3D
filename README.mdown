@@ -3,11 +3,9 @@ Scripts for Unity
 
 A collection of scripts I use to help my workflow in Unity3D. This is just getting started!
 
+
 Capture Transforms
 -----
 
-Ever tweaked GameObjects settings while in game mode, only to realise that you lost upon exiting? Yea, me too!
-
-Anyway. This script allows you to copy the changes before you exit and then re-apply them. Simply select the GameObjects you want to copy. Go to Custom > Copy Transforms. Stop Game mode and go to Custom > Apply Transforms.
-
-That's it. The tweak should be re-applied.
+Ever tweaked GameObjects settings while in game mode, only to realise that you lost them all upon exiting? Yea? Me too!
+Anyway. This script allows you to copy the changes *before* you exit and then re-apply them. Simply *select the GameObjects* you want to copy. Go to Custom > Copy Transforms. Stop Game mode and go to Custom > Apply Transforms. That's it. The tweak should be re-applied.
