@@ -32,15 +32,15 @@ public class CaptureTransform : ScriptableObject {
 	static void CaptureGameObject() {
         gameObjects = GetSelectedGameObjects();
         
-		int lenght = gameObjects.Length;
+		int length = gameObjects.Length;
 		string str;
 		GameObject go;
 		
-		positions 	= new Vector3[ lenght ];
-		rotations	= new Quaternion[ lenght ];
-		scales 		= new Vector3[ lenght ];
+		positions 	= new Vector3[ length ];
+		rotations	= new Quaternion[ length ];
+		scales 		= new Vector3[ length ];
 		
-		for (int i = 0; i < lenght; i++) 
+		for (int i = 0; i < length; i++) 
 		{	
 			go = (GameObject) gameObjects[i];
 			
@@ -64,10 +64,10 @@ public class CaptureTransform : ScriptableObject {
 		
 		Selection.objects = gameObjects;
 		
-		int lenght = gameObjects.Length;
+		int length = gameObjects.Length;
 		GameObject go;
 		
-		for (int i = 0; i < lenght; i++) 
+		for (int i = 0; i < length; i++) 
 		{	
 			go = (GameObject) gameObjects[i];
 			go.transform.position = positions[i];
